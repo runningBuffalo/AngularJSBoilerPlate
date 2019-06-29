@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div ng-app="IssuesModule" ng-controller="IssuesController" ng-cloak>
+    <h1>{{test}}</h1>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date</th>
+        </tr>
+        <tr ng-repeat="issue in issues">
+            <td>{{issue.Id}}</td>
+            <td>{{issue.Name}}</td>
+            <td>{{issue.DateCreated | date: 'yyyy/MM/dd'}}</td>
+        </tr>
+    </table>
+</div>
+
+
+<script src="~/js/appIssues.js"></script>

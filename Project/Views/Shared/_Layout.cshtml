@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Project</title>
+        <link rel="stylesheet" href="~/css/site.css" />
+        <script src="~/js/angularjs.js"></script>
+        <script src="~/js/angularjs.js"></script>
+    </head>
+    <body>
+        <nav>
+            Menu
+        </nav>
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>

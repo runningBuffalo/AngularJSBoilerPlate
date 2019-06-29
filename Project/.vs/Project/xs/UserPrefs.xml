@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{EBD937C2-BDD0-4F7A-BA68-3394A534C93D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="17" Column="53" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="8" Column="50" />
+      <File FileName="Controllers/IssueController.cs" Line="29" Column="30" />
+      <File FileName="Models/IssueModel.cs" Line="17" Column="6" />
+      <File FileName="wwwroot/js/appIssues.js" Line="12" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Project PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
